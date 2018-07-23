@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Submission</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <style>
+      h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+      }
+      </style>
+      <section class="sect1" style="background-color:#A5C4D4"> 
+  </head>
+    
+  </head>
+  <body class="submissionbody">
+     <h1 class="titletext" style= "color:black"> <a href='/'>Welcome to the Show Hole...</a></h1>
+  
+     <h3 class="about_us">About Us</h3>
+    
+   <!--<form type = "button" method = "post" action = "/submission">-->
+   <!--  <button id="submissionbutton">Add a submission</button></br></section>-->
+   <!-- </form></br>-->
+   
+   
+    
+<div>
+<center>
+  <p> These are the tags we already have in our database. PLEASE don't enter the same one or a synonym (i.e. "funny" and "humorous" - no no) Thanks! Here they are: <br> <br>
+   <%=@tags%> </p>
+  <form action="/thank_you" method="post">
+    
+   <label for="title"> Enter your wonderful new tags here</label>
+    <input class= "formtext" type="text" id="tags" name="tag_entered" placeholder="Please enter only one at a time! And if you have spaces, please use a '-' or '_' instead of the space! Don't break our website! Thanks for your cooperation!"></br></br>
+  
+    <input class= "formsubmit" type="submit" value="Submit">
+  </form>
+  </center>
+</div>
+</div>
+  </body>
+</html>
